@@ -1,0 +1,134 @@
+.Videocard{
+    width:350px;
+    height:1000px;
+    overflow: scroll;
+   
+}
+.videowrapper{
+    display:flex;
+    margin-top:150px;
+    margin-bottom: 150px;
+    justify-content: center;
+    border-radius: 10px;
+    border: grey 2px solid;
+    width:1050px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+}
+.videoplayer{
+    width:700px;
+    height:1000px;
+    /* background-color: aquamarine; */
+}
+.gray{
+    /* height:260px; */
+    background-color: lightgrey;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.video{
+    width:300px;
+    /* height:250px; */
+    /* background-color: lightgrey; */
+    margin-left: 25px;
+    cursor: pointer;
+    /* border-radius: 8px; */
+   
+    /* border: red 2px solid; */
+    /* padding:5px; */
+}
+.video img{
+    width:300px;
+    height:200px;
+    border-radius: 8px;
+
+}
+
+.video h2{
+    font-size: 18px;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* top:80%; */
+    margin-top: .5%;
+    /* transform: translateY(-50%); */
+}
+
+.frame{
+    height:450px;
+    /* background-color: white; */
+    width:700px;
+    margin:10px;
+    border-bottom: 2px black solid;
+    /* border-radius: 10px; */
+    /* overflow: hidden; */
+}
+.videoarea{
+    height:450px;
+    width:700px;
+    overflow:hidden;
+    margin-top: 20px;
+    
+    /* background-color: red; */
+}
+
+.video_player{
+    width:700px;
+    height:430px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin:none;
+    padding:none;
+   margin-top:-29px;
+   /* overflow: hidden; */
+}
+
+.likes{
+    display:flex;
+    /* background-color: darkgrey; */
+    justify-content: space-between;
+    margin-top: -20px;
+    /* margin-bottom: 40px; */
+    /* padding-top: 20px; */
+    font-size: 10px;
+}
+.likes h2{
+    font-size:18px;
+}
+.save{
+    margin-top: 15px;
+    padding-right: 20px;
+    /* margin-right:20px; */
+}
+.save i{
+    margin-left:20px;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    overflow-x: hidden;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 10px;
+  }
+  .title{
+      margin-left: 10px;
+  }
+  .details{
+    margin-left: 10px;
+  }
+  body{
+   background-color: aquamarine;
+  }
